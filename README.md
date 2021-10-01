@@ -1,21 +1,16 @@
-# java-project-using-gradle
-create java project and jar file using gradle
+# Money Management Service
+## Project Description
+   - Project name: MGS - Money management service
+   - A Program to manage your money
+   - This is a Java OOP Project
 
-commands
-- pwd
+## How To Build and Run!
+   - Clean build project
+   ```
+   gradlew clean build
+   ```
 
-    ```
-    Path
-    ----
-    D:\devTools\gradle-6.0\bin
-    ```
-
-- Create wrapper
-  - D:\devTools\gradle-6.0\bin\gradle wrapper
-  
-- Clean build project
-  - ./gradlew clean build
-
-- Run jar
-  - `java -jar .\build\lib\jarFileName.jar` [`windows`]
-  - `java -jar .\build\lib\jarFileName.jar` [`unix`]
+   - Run jar
+   ```
+   java -jar .\build\lib\jarFileName.jar
+   ```
